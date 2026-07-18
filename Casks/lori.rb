@@ -29,7 +29,7 @@ cask "lori" do
     strategy :sparkle
   end
 
-  depends_on macos: ">= :ventura" # SwiftUI NavigationSplitView needs macOS 13+
+  depends_on macos: :ventura # SwiftUI NavigationSplitView needs macOS 13+
 
   app "Lori.app"
 
