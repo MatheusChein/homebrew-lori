@@ -12,8 +12,8 @@
 # upload the notarized Lori.dmg to a PUBLIC, stable, versioned URL (the code repo is
 # private, so use a public releases repo or your webpage's host), and point `url` at it.
 cask "lori" do
-  version "0.2.2"
-  sha256 "0052560e7a45d4270b26bb188bf6a45f0636be55ba5881387789b0fff147b5c5"
+  version "0.3.0"
+  sha256 "d5549336a9db435ea09b5523babc9bce30d59654c5b386025449cdb4d2b8e54b"
 
   url "https://lori-app.sh/download/v#{version}/Lori.dmg"
   name "Lori"
